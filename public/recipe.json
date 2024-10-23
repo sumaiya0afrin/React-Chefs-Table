@@ -1,6 +1,6 @@
 [
     {
-      "recipe_image": "https://example.com/images/chicken_stir_fry.jpg",
+      "recipe_image": "https://i.postimg.cc/k5TmfqSm/Chicken-Stir-Fry.jpg",
       "recipe_id": "R001",
       "recipe_name": "Chicken Stir Fry",
       "short_description": "A quick and healthy stir-fry dish with chicken and vegetables.",
@@ -16,7 +16,7 @@
       "calories": 320
     },
     {
-      "recipe_image": "https://example.com/images/spaghetti_bolognese.jpg",
+      "recipe_image": "https://i.postimg.cc/8zBDfhPs/Spaghetti-Bolognese.jpg",
       "recipe_id": "R002",
       "recipe_name": "Spaghetti Bolognese",
       "short_description": "A classic Italian pasta dish with a rich meat sauce.",
@@ -32,7 +32,7 @@
       "calories": 480
     },
     {
-      "recipe_image": "https://example.com/images/grilled_salmon.jpg",
+      "recipe_image": "https://i.postimg.cc/RZz40Pmj/Grilled-Salmon.jpg",
       "recipe_id": "R003",
       "recipe_name": "Grilled Salmon",
       "short_description": "A simple and delicious grilled salmon with herbs and lemon.",
@@ -48,7 +48,7 @@
       "calories": 350
     },
     {
-      "recipe_image": "https://example.com/images/vegetable_curry.jpg",
+      "recipe_image": "https://i.postimg.cc/sfq3kjNf/Vegetable-Curry.jpg",
       "recipe_id": "R004",
       "recipe_name": "Vegetable Curry",
       "short_description": "A flavorful and spicy vegetable curry with coconut milk.",
@@ -64,7 +64,7 @@
       "calories": 290
     },
     {
-      "recipe_image": "https://example.com/images/beef_tacos.jpg",
+      "recipe_image": "https://i.postimg.cc/C5BSRXzV/Beef-Tacos.jpg",
       "recipe_id": "R005",
       "recipe_name": "Beef Tacos",
       "short_description": "Crispy beef tacos with fresh toppings and spicy salsa.",
@@ -80,7 +80,7 @@
       "calories": 420
     },
     {
-      "recipe_image": "https://example.com/images/pancakes.jpg",
+      "recipe_image": "https://i.postimg.cc/ydNVHkKx/Classic-Pancakes.jpg",
       "recipe_id": "R006",
       "recipe_name": "Classic Pancakes",
       "short_description": "Fluffy pancakes served with maple syrup and butter.",
