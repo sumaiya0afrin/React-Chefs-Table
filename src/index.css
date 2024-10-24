@@ -32,3 +32,6 @@ color: #0BE58A;
     color: white;
 }
 
+.table th, .table td{
+    padding-right: 0;
+}

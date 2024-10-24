@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-const Recipe = ({ recipe }) => {
+const Recipe = ({ recipe, handleRecipeQueue }) => {
   return (
     <div>
       <div className="card bg-base-100 border border-[#28282833]">
@@ -14,7 +14,9 @@ const Recipe = ({ recipe }) => {
           <h2 className="card-title">{recipe.recipe_name}</h2>
           <p className="text-[#878787]">{recipe.short_description}</p>
           <div className="divider"></div>
-          <p className="font-medium text-lg">Ingredients: 6</p>
+          <p className="font-medium text-lg">
+            Ingredients: {recipe.ingredients.length}
+          </p>
 
           {recipe.ingredients.map((item, idx) => (
             <span key={idx}>
@@ -41,7 +43,10 @@ const Recipe = ({ recipe }) => {
           </div>
 
           <div className="card-actions">
-            <button className="btn bg-[#0BE58A] rounded-full">
+            <button
+              onClick={() => handleRecipeQueue(recipe)}
+              className="btn bg-[#0BE58A] rounded-full"
+            >
               Want to Cook
             </button>
           </div>
@@ -53,6 +58,7 @@ const Recipe = ({ recipe }) => {
 
 Recipe.propTypes = {
   recipe: PropTypes.object,
+  handleRecipeQueue: PropTypes.func,
 };
 
 export default Recipe;
